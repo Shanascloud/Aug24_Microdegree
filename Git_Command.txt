@@ -1,0 +1,16 @@
+To download the git client tool 
+- https://git-scm.com/download/win
+
+To Initilize the repozitory
+- git init 
+
+This command is used to clone the repository 
+- git clone https://github.com/Shanascloud/Aug24_Microdegree.git
+
+- git add --all
+
+- git commit -m "commit Message"
+
+- git push "repo_link"
+
+- git pull "repo_link"
