@@ -7,7 +7,10 @@ To Initilize the repozitory
 This command is used to clone the repository 
 - git clone https://github.com/Shanascloud/Aug24_Microdegree.git
 
+
 - git add --all
+
+- git add "filename"
 
 - git commit -m "commit Message"
 
