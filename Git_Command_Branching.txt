@@ -6,3 +6,9 @@ to create and checkout to newbranch
 
 to switch to other branches
 - git checkout "branchname"
+
+To push  it to the respective branch 
+- git push --set-upstream origin "branch_name"
+
+to delete a branch 
+- git branch -d "branch_name"
