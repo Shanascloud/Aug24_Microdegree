@@ -12,3 +12,15 @@ To push  it to the respective branch
 
 to delete a branch 
 - git branch -d "branch_name"
+
+
+______________________________________________________________
+
+To Install git on linux machine
+https://git-scm.com/download/linux
+
+to accss to root 
+- sudo su 
+
+To install git on linux (Amazon)
+- yum install git 
