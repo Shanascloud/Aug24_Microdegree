@@ -1,0 +1,17 @@
+to Merge the branch with main branch, we need to switch to the main branch first and then run command as below
+ - git merge "branch name"
+  
+ To check the git logs
+ - git log 
+ 
+ to exit log 
+ - q
+  
+   git revert command is used for undoing changes to a repository's commit history
+ - git revert "Commit id"
+
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. from destination  to updated branch
+- git rebase branchname
+
+git cherry-pick is a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD
+- git cherry-pick
