@@ -1,0 +1,21 @@
+To login to root user
+- sudo su
+
+
+to update all the linux packages (Amazon)
+- yum update 
+
+- apt-get update  (Ubuntu Command)
+
+
+To install java
+- yum install java-11
+
+To check java version
+- java --version
+
+to Install Maven
+- yum install maven
+
+to Install git
+- yum install git
