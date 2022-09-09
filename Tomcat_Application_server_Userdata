@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo su 
+yum update -y
+yum install java-11 -y 
+wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.82/bin/apache-tomcat-8.5.82.tar.gz
+tar -zvxf apache-tomcat-8.5.82.tar.gz
+/home/ec2-user/tomcat/apache-tomcat-8.5.82/bin/startup.sh
