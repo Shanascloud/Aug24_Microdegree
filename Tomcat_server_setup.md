@@ -39,27 +39,39 @@ ls -l
 - /home/ec2-user/tomcat/apache-tomcat-8.5.82/bin/startup.sh
 
 
-You are not authorized to view this page.
+ # You are not authorized to view this page.
 
-By default the Manager is only accessible from a browser running on the same machine as Tomcat. 
-If you wish to modify this restriction, you'll need to edit the Manager's context.xml file.
+ # By default the Manager is only accessible from a browser running on the same machine as Tomcat. 
+ # If you wish to modify this restriction, you'll need to edit the Manager's context.xml file.
 
 - find / -name context.xml
 Usually it will under 2 places, and it neeeds to be changed in both the places
 
-/home/ec2-user/tomcat/apache-tomcat-8.5.82/webapps/host-manager/META-INF/context.xml
-/home/ec2-user/tomcat/apache-tomcat-8.5.82/webapps/manager/META-INF/context.xml
+- /home/ec2-user/tomcat/apache-tomcat-8.5.82/webapps/host-manager/META-INF/context.xml
+- /home/ec2-user/tomcat/apache-tomcat-8.5.82/webapps/manager/META-INF/context.xml
 
-- vi context.xml
+# to Edit the File with vi
+- vi context.xml 
+- i 
+
+# To save and exit from vi 
+:wq
+# To exit from vi without saving
+:q
 
 
 # And comment the value using below codes
 
 <!--   -->
 
+# <!--
+
 Sample
   <!--  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
-  allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />  -->
+  allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> 
+
+#-->
+
   
   
  # Update users information in the tomcat-users.xml file goto tomcat home directory and Add below users using vi tomcat-users.xml
