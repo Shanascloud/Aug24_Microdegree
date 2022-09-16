@@ -25,3 +25,10 @@
 
 docker run -d -p 80:80 httpd
 
+# To run the tomcat with  docker image -d to riun in detached mode
+docker run -d --name mytomcat3 -p 8081:8080 tomcat
+
+# To run the ubuntu docker images, this will enter the ubuntu machine
+docker run -it ubuntu
+
+
